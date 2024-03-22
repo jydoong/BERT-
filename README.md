@@ -10,11 +10,11 @@ NH투자증권 빅데이터 공모전 수상작
 
 ## 아이디어
 ### 소개
-최근 뜨는 테마 관련 해외 종목 및 국내 수혜주 수익률 예측
+최근 뜨는 테마를 분석해 관련 해외 주식의 예상 수익률을 도출하고 이를 기반으로 국내 수혜주 종목을 제공하는 서비스
 
-### 배경
+### 상황 분석
 국내 개인투자자의 해외 주식 투자가 증가하고 있으며, 그 중 미국 주식에 대한 서비스의 필요성이 대두되고 있음.
-2030세대를 중심으로 해외 주식 투자는 늘어나고 있으며, 이들은 스스로 투자 판단을 내리며 뉴스 기사로 투자 정보를 수집함.
+또한 스스로 투자 판단을 내리며 뉴스 기사로 투자 정보를 수집함.
 투자자들은 종목의 성장성과 시장의 영향력을 기준으로 투자하며, 테마주에 관심이 많으며 그로 인해 테마주의 수혜주의 주가도 상승하고 있음.
 
 ### 문제 정의
@@ -24,14 +24,13 @@ NH투자증권 빅데이터 공모전 수상작
 3. 투자 초보들은 여러 정보들을 종합적으로 판단해 투자 결정을 내리기 어려움.
 
 ### 인사이트 도출
-테마주와 수혜주를 종목의 성장성과 시장의 영향력을 고려해 종합적으로 알려주는 서비스가 필요함
-따라서 최근 뜨는 테마를 분석해 관련 해외 주식의 예상 수익률을 도출하고 이를 기반으로 국내 수혜주 종목을 제공하는 서비스
+테마주와 수혜주를 종목의 성장성과 시장의 영향력을 고려해 종합적으로 알려주는 서비스가 필요함.
 
 ## 결과
 - 예선 2위, 입선상 수상
 
 ## 모델링 과정
-<img width="702" alt="스크린샷 2024-03-22 오후 2 43 34" src="https://github.com/jydoong/NH_BigData_competition/assets/88875273/ab54fc89-b58e-4123-aa67-514500aefe05">
+<img width="1000" alt="스크린샷 2024-03-22 오후 2 43 34" src="https://github.com/jydoong/NH_BigData_competition/assets/88875273/ab54fc89-b58e-4123-aa67-514500aefe05">
 
 1. 8개월 간의 CNBC 뉴스 크롤링, yfinance 크롤링
 2. BERTopic을 활용한 토픽모델링
@@ -40,9 +39,10 @@ NH투자증권 빅데이터 공모전 수상작
 5. 유망한 테마주와 관련있는 국내 수혜주 추출 및 주가 상승률 예측
 
 ### 파생변수
+<img width="684" alt="스크린샷 2024-03-22 오후 2 53 44" src="https://github.com/jydoong/NH_BigData_competition/assets/88875273/39687dac-4733-4b4a-9db2-b03c46fae4d6">
+<img width="685" alt="스크린샷 2024-03-22 오후 2 53 57" src="https://github.com/jydoong/NH_BigData_competition/assets/88875273/e547c372-47af-446b-9334-e2ab53a86e34">
+<img width="682" alt="스크린샷 2024-03-22 오후 2 54 05" src="https://github.com/jydoong/NH_BigData_competition/assets/88875273/ed5c229c-657a-473a-afc2-3262dafcb05e">
+<img width="682" alt="스크린샷 2024-03-22 오후 2 54 48" src="https://github.com/jydoong/NH_BigData_competition/assets/88875273/bed68fb2-45f6-4430-bcea-7ab1ab30d9c4">
 
-
-
-
-
-[테마파크_본선_아이디어기획서.pdf](https://github.com/jydoong/NH_BigData_competition/files/14717193/_._.pdf)
+### 보고서 PPT 자료
+[테마파크_본선_아이디어기획서.pdf](https://github.com/jydoong/NH_BigData_competition/files/14718029/_._.pdf)
