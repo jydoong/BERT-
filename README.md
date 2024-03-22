@@ -31,7 +31,8 @@ NH투자증권 빅데이터 공모전 수상작
 - 예선 2위, 입선상 수상
 
 ## 모델링 과정
-![Uploading 스크린샷 2024-03-22 오후 2.40.52.png…]()
+<img width="702" alt="스크린샷 2024-03-22 오후 2 43 34" src="https://github.com/jydoong/NH_BigData_competition/assets/88875273/ab54fc89-b58e-4123-aa67-514500aefe05">
+
 1. 8개월 간의 CNBC 뉴스 크롤링, yfinance 크롤링
 2. BERTopic을 활용한 토픽모델링
 3. 최근 성장하는 주식 테마 추출
